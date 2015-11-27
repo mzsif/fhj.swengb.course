@@ -4,11 +4,7 @@ import java.io.InputStream
 import java.time.LocalDate
 
 
-object Projects {
 
-  case class Project(name: String, description: String, team: Seq[Student])
-
-}
 
 object Events {
 
@@ -66,13 +62,9 @@ object Students {
 
   val shysi: Student = Student("Steven", "Hysi", "Lionade", 2)
 
-  val jjohansson: Student = Student("Julia", "Johansson", "julia08", 2)
-
   val dkandlhofer: Student = Student("Daniel", "Kandlhofer", "danielkandlhofer", 2)
 
   val ekarimova: Student = Student("Elza", "Karimova", "elsakarimova", 1)
-
-  val ekeck: Student = Student("Elke", "Keck", "elkekeck", 2)
 
   val mknaller: Student = Student("Markus", "Knaller", "knalla66", 2)
 
@@ -90,11 +82,7 @@ object Students {
 
   val tortmann: Student = Student("Thomas", "Ortmann", "tortmann", 3)
 
-  val rrobatsch: Student = Student("René", "Robatsch", "robatsch14", 3)
-
   val aschneider: Student = Student("Andreas", "Schneider", "Zerberuss", 1)
-
-  val fschopper: Student = Student("Fabian", "Schopper", "schopperf", 3)
 
   val aseebacher: Student = Student("Andreas", "Seebacher", "andseeb", 3)
 
